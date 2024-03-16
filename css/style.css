@@ -419,16 +419,6 @@ button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color; }
 
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
-
 button,
 input {
   overflow: visible; }
@@ -436,13 +426,6 @@ input {
 button,
 select {
   text-transform: none; }
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  padding: 0;
-  border-style: none; }
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -1389,6 +1372,8 @@ fieldset:disabled a.btn {
 margin-top: 2rem;
 margin-bottom: 4rem;
 width: 100%;
+height: 100%;
+color: #0062cc;
 }
 
 .mb-2 {
@@ -1472,7 +1457,7 @@ width: 100%;
   color: #81ffab !important; }
 
 .pt-4 {
-  padding-top: 1.5rem !important; }
+  padding-top: 3rem !important; }
 
 .py-2 {
   padding-bottom: 0.5rem !important; }
